@@ -1,0 +1,26 @@
+[
+  {
+    "id": "renegade-immortal",
+    "title": "Renegade Immortal",
+    "year": "2025",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "poster": "assets/poster/renegade-immortal.svg",
+    "description": "Contoh deskripsi pendek untuk Renegade Immortal. Ini hanya sample untuk demo.",
+    "trailer": ""
+  },
+  {
+    "id": "sample-anime",
+    "title": "Sample Anime",
+    "year": "2024",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "assets/poster/sample-anime.svg",
+    "description": "Sample Anime deskripsi singkat. Tambahkan lebih banyak data di data/movies.json.",
+    "trailer": ""
+  }
+]
