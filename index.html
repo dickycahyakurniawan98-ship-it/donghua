@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DICAKUN — Movie & Anime</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="assets/poster/favicon.svg" />
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+  <header class="bg-gradient-to-r from-indigo-800 to-pink-700 p-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <h1 class="text-2xl font-extrabold">DICAKUN</h1>
+      <nav class="space-x-4">
+        <button id="allBtn" class="px-3 py-1 bg-white/10 rounded hover:bg-white/20">All</button>
+        <div id="genres" class="inline"></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-6">
+    <div id="grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6"></div>
+  </main>
+
+  <footer class="text-center p-6 text-sm text-gray-400">
+    © DICAKUN — contoh deploy statis. Tambah data di <code>data/movies.json</code>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
